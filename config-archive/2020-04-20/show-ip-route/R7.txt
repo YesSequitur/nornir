@@ -13,20 +13,22 @@ Gateway of last resort is not set
       1.0.0.0/32 is subnetted, 1 subnets
 C        1.1.1.1 is directly connected, Loopback0
       10.0.0.0/8 is variably subnetted, 13 subnets, 2 masks
-D        10.0.0.0/30 [90/3328] via 10.0.0.17, 00:48:22, GigabitEthernet0/2
-D        10.0.0.4/30 [90/3328] via 10.0.0.25, 00:48:31, GigabitEthernet0/1
-                     [90/3328] via 10.0.0.17, 00:48:31, GigabitEthernet0/2
-D        10.0.0.8/30 [90/3072] via 10.0.0.17, 00:48:28, GigabitEthernet0/2
-D        10.0.0.12/30 [90/3072] via 10.0.0.17, 00:48:31, GigabitEthernet0/2
+D        10.0.0.0/30 [90/3328] via 10.0.0.17, 00:53:43, GigabitEthernet0/2
+D        10.0.0.4/30 [90/3328] via 10.0.0.25, 00:53:52, GigabitEthernet0/1
+                     [90/3328] via 10.0.0.17, 00:53:52, GigabitEthernet0/2
+D        10.0.0.8/30 [90/3072] via 10.0.0.17, 00:53:49, GigabitEthernet0/2
+D        10.0.0.12/30 [90/3072] via 10.0.0.17, 00:53:52, GigabitEthernet0/2
 C        10.0.0.16/30 is directly connected, GigabitEthernet0/2
 L        10.0.0.18/32 is directly connected, GigabitEthernet0/2
-D        10.0.0.20/30 [90/3072] via 10.0.0.25, 00:48:31, GigabitEthernet0/1
+D        10.0.0.20/30 [90/3072] via 10.0.0.25, 00:53:52, GigabitEthernet0/1
 C        10.0.0.24/30 is directly connected, GigabitEthernet0/1
 L        10.0.0.26/32 is directly connected, GigabitEthernet0/1
-D        10.0.0.28/30 [90/3072] via 10.0.0.25, 00:48:34, GigabitEthernet0/1
+D        10.0.0.28/30 [90/3072] via 10.0.0.25, 00:53:55, GigabitEthernet0/1
 C        10.0.0.32/30 is directly connected, GigabitEthernet0/3
 L        10.0.0.33/32 is directly connected, GigabitEthernet0/3
-D        10.0.0.36/30 [90/3072] via 10.0.0.34, 00:48:34, GigabitEthernet0/3
+D        10.0.0.36/30 [90/3072] via 10.0.0.34, 00:53:55, GigabitEthernet0/3
+      28.0.0.0/32 is subnetted, 1 subnets
+D        28.28.28.28 [90/2848] via 10.0.0.17, 00:00:31, GigabitEthernet0/2
       45.0.0.0/24 is subnetted, 1 subnets
-D        45.45.45.0 [90/3360] via 10.0.0.25, 00:03:44, GigabitEthernet0/1
-                    [90/3360] via 10.0.0.17, 00:03:44, GigabitEthernet0/2
+D        45.45.45.0 [90/3360] via 10.0.0.25, 00:09:05, GigabitEthernet0/1
+                    [90/3360] via 10.0.0.17, 00:09:05, GigabitEthernet0/2

@@ -13,19 +13,22 @@ Gateway of last resort is not set
       1.0.0.0/32 is subnetted, 1 subnets
 C        1.1.1.1 is directly connected, Loopback0
       10.0.0.0/8 is variably subnetted, 12 subnets, 2 masks
-D        10.0.0.0/30 [90/3584] via 10.0.0.29, 00:48:27, GigabitEthernet0/2
-D        10.0.0.4/30 [90/3328] via 10.0.0.29, 00:48:40, GigabitEthernet0/2
-D        10.0.0.8/30 [90/3584] via 10.0.0.37, 00:48:34, GigabitEthernet0/1
-                     [90/3584] via 10.0.0.29, 00:48:34, GigabitEthernet0/2
-D        10.0.0.12/30 [90/3328] via 10.0.0.29, 00:48:36, GigabitEthernet0/2
-D        10.0.0.16/30 [90/3328] via 10.0.0.37, 00:48:39, GigabitEthernet0/1
-                      [90/3328] via 10.0.0.29, 00:48:39, GigabitEthernet0/2
-D        10.0.0.20/30 [90/3072] via 10.0.0.29, 00:48:41, GigabitEthernet0/2
-D        10.0.0.24/30 [90/3072] via 10.0.0.29, 00:48:39, GigabitEthernet0/2
+D        10.0.0.0/30 [90/3584] via 10.0.0.29, 00:53:46, GigabitEthernet0/2
+D        10.0.0.4/30 [90/3328] via 10.0.0.29, 00:53:59, GigabitEthernet0/2
+D        10.0.0.8/30 [90/3584] via 10.0.0.37, 00:53:53, GigabitEthernet0/1
+                     [90/3584] via 10.0.0.29, 00:53:53, GigabitEthernet0/2
+D        10.0.0.12/30 [90/3328] via 10.0.0.29, 00:53:55, GigabitEthernet0/2
+D        10.0.0.16/30 [90/3328] via 10.0.0.37, 00:53:58, GigabitEthernet0/1
+                      [90/3328] via 10.0.0.29, 00:53:58, GigabitEthernet0/2
+D        10.0.0.20/30 [90/3072] via 10.0.0.29, 00:54:00, GigabitEthernet0/2
+D        10.0.0.24/30 [90/3072] via 10.0.0.29, 00:53:58, GigabitEthernet0/2
 C        10.0.0.28/30 is directly connected, GigabitEthernet0/2
 L        10.0.0.30/32 is directly connected, GigabitEthernet0/2
-D        10.0.0.32/30 [90/3072] via 10.0.0.37, 00:48:41, GigabitEthernet0/1
+D        10.0.0.32/30 [90/3072] via 10.0.0.37, 00:54:00, GigabitEthernet0/1
 C        10.0.0.36/30 is directly connected, GigabitEthernet0/1
 L        10.0.0.38/32 is directly connected, GigabitEthernet0/1
+      28.0.0.0/32 is subnetted, 1 subnets
+D        28.28.28.28 [90/3360] via 10.0.0.37, 00:00:30, GigabitEthernet0/1
+                     [90/3360] via 10.0.0.29, 00:00:30, GigabitEthernet0/2
       45.0.0.0/24 is subnetted, 1 subnets
-D        45.45.45.0 [90/3360] via 10.0.0.29, 00:03:45, GigabitEthernet0/2
+D        45.45.45.0 [90/3360] via 10.0.0.29, 00:09:04, GigabitEthernet0/2

@@ -13,20 +13,22 @@ Gateway of last resort is not set
       1.0.0.0/32 is subnetted, 1 subnets
 C        1.1.1.1 is directly connected, Loopback0
       10.0.0.0/8 is variably subnetted, 13 subnets, 2 masks
-D        10.0.0.0/30 [90/15360] via 10.0.0.9, 00:48:16, GigabitEthernet0/2
-D        10.0.0.4/30 [90/15360] via 10.0.0.14, 00:48:15, GigabitEthernet0/1
+D        10.0.0.0/30 [90/15360] via 10.0.0.9, 00:53:33, GigabitEthernet0/2
+D        10.0.0.4/30 [90/15360] via 10.0.0.14, 00:53:32, GigabitEthernet0/1
 C        10.0.0.8/30 is directly connected, GigabitEthernet0/2
 L        10.0.0.10/32 is directly connected, GigabitEthernet0/2
 C        10.0.0.12/30 is directly connected, GigabitEthernet0/1
 L        10.0.0.13/32 is directly connected, GigabitEthernet0/1
 C        10.0.0.16/30 is directly connected, GigabitEthernet0/3
 L        10.0.0.17/32 is directly connected, GigabitEthernet0/3
-D        10.0.0.20/30 [90/15360] via 10.0.0.14, 00:48:26, GigabitEthernet0/1
-D        10.0.0.24/30 [90/15360] via 10.0.0.18, 00:48:26, GigabitEthernet0/3
-D        10.0.0.28/30 [90/20480] via 10.0.0.18, 00:48:26, GigabitEthernet0/3
-                      [90/20480] via 10.0.0.14, 00:48:26, GigabitEthernet0/1
-D        10.0.0.32/30 [90/15360] via 10.0.0.18, 00:48:25, GigabitEthernet0/3
-D        10.0.0.36/30 [90/20480] via 10.0.0.18, 00:48:26, GigabitEthernet0/3
+D        10.0.0.20/30 [90/15360] via 10.0.0.14, 00:53:43, GigabitEthernet0/1
+D        10.0.0.24/30 [90/15360] via 10.0.0.18, 00:53:43, GigabitEthernet0/3
+D        10.0.0.28/30 [90/20480] via 10.0.0.18, 00:53:43, GigabitEthernet0/3
+                      [90/20480] via 10.0.0.14, 00:53:43, GigabitEthernet0/1
+D        10.0.0.32/30 [90/15360] via 10.0.0.18, 00:53:42, GigabitEthernet0/3
+D        10.0.0.36/30 [90/20480] via 10.0.0.18, 00:53:43, GigabitEthernet0/3
+      28.0.0.0/32 is subnetted, 1 subnets
+C        28.28.28.28 is directly connected, Loopback28
       45.0.0.0/24 is subnetted, 1 subnets
-D        45.45.45.0 [90/16000] via 10.0.0.14, 00:03:45, GigabitEthernet0/1
-                    [90/16000] via 10.0.0.9, 00:03:45, GigabitEthernet0/2
+D        45.45.45.0 [90/16000] via 10.0.0.14, 00:09:02, GigabitEthernet0/1
+                    [90/16000] via 10.0.0.9, 00:09:02, GigabitEthernet0/2
