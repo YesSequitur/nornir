@@ -21,7 +21,7 @@ print(sub_fig.renderText('IPvZero'))
 
 def archive_telemetry(task, get_bar):
     commands = ["show run", "show cdp neighbor detail", "show version",
-    "show clock", "show logging", "show ip ospf int brief",
+    "show ip route", "show logging", "show ip ospf int brief",
     "show ip ospf database", "show ip bgp neighbor"]
     for cmd in commands:
         name = str(cmd)

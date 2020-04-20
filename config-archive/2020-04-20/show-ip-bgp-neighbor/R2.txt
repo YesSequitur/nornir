@@ -45,7 +45,7 @@ BGP neighbor is 1.1.1.1,  remote AS 65001, internal link
 
   Address tracking is enabled, the RIB does have a route to 1.1.1.1
   Connections established 1; dropped 1
-  Last reset 00:16:02, due to BGP protocol initialization
+  Last reset 00:23:12, due to BGP protocol initialization
   Interface associated: (none) (peering address NOT in same link)
   Transport(tcp) path-mtu-discovery is enabled
   Graceful-Restart is disabled
@@ -96,7 +96,7 @@ BGP neighbor is 3.3.3.3,  remote AS 65001, internal link
 
   Address tracking is enabled, the RIB does not have a route to 3.3.3.3
   Connections established 1; dropped 1
-  Last reset 00:16:02, due to BGP protocol initialization
+  Last reset 00:23:12, due to BGP protocol initialization
   Interface associated: (none) (peering address NOT in same link)
   Transport(tcp) path-mtu-discovery is enabled
   Graceful-Restart is disabled
@@ -150,7 +150,7 @@ BGP neighbor is 4.4.4.4,  remote AS 65001, internal link
 
   Address tracking is enabled, the RIB does not have a route to 4.4.4.4
   Connections established 1; dropped 1
-  Last reset 00:16:02, due to BGP protocol initialization
+  Last reset 00:23:12, due to BGP protocol initialization
   Interface associated: (none) (peering address NOT in same link)
   Transport(tcp) path-mtu-discovery is enabled
   Graceful-Restart is disabled
@@ -204,7 +204,7 @@ BGP neighbor is 5.5.5.5,  remote AS 65001, internal link
 
   Address tracking is enabled, the RIB does not have a route to 5.5.5.5
   Connections established 1; dropped 1
-  Last reset 00:16:01, due to BGP protocol initialization
+  Last reset 00:23:11, due to BGP protocol initialization
   Interface associated: (none) (peering address NOT in same link)
   Transport(tcp) path-mtu-discovery is enabled
   Graceful-Restart is disabled
@@ -258,7 +258,7 @@ BGP neighbor is 6.6.6.6,  remote AS 65001, internal link
 
   Address tracking is enabled, the RIB does not have a route to 6.6.6.6
   Connections established 1; dropped 1
-  Last reset 00:16:03, due to BGP protocol initialization
+  Last reset 00:23:13, due to BGP protocol initialization
   Interface associated: (none) (peering address NOT in same link)
   Transport(tcp) path-mtu-discovery is enabled
   Graceful-Restart is disabled
@@ -312,7 +312,7 @@ BGP neighbor is 7.7.7.7,  remote AS 65001, internal link
 
   Address tracking is enabled, the RIB does not have a route to 7.7.7.7
   Connections established 1; dropped 1
-  Last reset 00:16:04, due to BGP protocol initialization
+  Last reset 00:23:14, due to BGP protocol initialization
   Interface associated: (none) (peering address NOT in same link)
   Transport(tcp) path-mtu-discovery is enabled
   Graceful-Restart is disabled
@@ -366,7 +366,7 @@ BGP neighbor is 8.8.8.8,  remote AS 65001, internal link
 
   Address tracking is enabled, the RIB does not have a route to 8.8.8.8
   Connections established 1; dropped 1
-  Last reset 00:16:02, due to BGP protocol initialization
+  Last reset 00:23:12, due to BGP protocol initialization
   Interface associated: (none) (peering address NOT in same link)
   Transport(tcp) path-mtu-discovery is enabled
   Graceful-Restart is disabled

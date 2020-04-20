@@ -7,11 +7,11 @@ No Active Message Discriminator.
 No Inactive Message Discriminator.
 
 
-    Console logging: level debugging, 74 messages logged, xml disabled,
+    Console logging: level debugging, 77 messages logged, xml disabled,
                      filtering disabled
     Monitor logging: level debugging, 0 messages logged, xml disabled,
                      filtering disabled
-    Buffer logging:  level debugging, 77 messages logged, xml disabled,
+    Buffer logging:  level debugging, 80 messages logged, xml disabled,
                     filtering disabled
     Exception Logging: size (8192 bytes)
     Count and timestamp logging messages: disabled
@@ -19,7 +19,7 @@ No Inactive Message Discriminator.
 
 No active filter modules.
 
-    Trap logging: level informational, 81 message lines logged
+    Trap logging: level informational, 84 message lines logged
         Logging Source-Interface:       VRF Name:
 
 Log Buffer (8192 bytes):
@@ -108,3 +108,6 @@ Compiled Tue 22-Mar-16 16:19 by prod_rel_team
 *Apr 19 23:55:23.357: %BGP_SESSION-5-ADJCHANGE: neighbor 2.2.2.2 IPv4 Unicast topology base removed from session  BGP Notification sent
 *Apr 19 23:55:23.358: %BGP-5-ADJCHANGE: neighbor 3.3.3.3 Down BGP Notification sent
 *Apr 19 23:55:23.359: %BGP_SESSION-5-ADJCHANGE: neighbor 3.3.3.3 IPv4 Unicast topology base removed from session  BGP Notification sent
+*Apr 20 00:14:48.940: %LINEPROTO-5-UPDOWN: Line protocol on Interface Loopback45, changed state to up
+*Apr 20 00:16:12.368: %SYS-5-CONFIG_I: Configured from console by console
+*Apr 20 00:16:51.227: %SYS-5-CONFIG_I: Configured from console by console

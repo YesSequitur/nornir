@@ -1,9 +1,9 @@
 Building configuration...
 
 
-Current configuration : 6990 bytes
+Current configuration : 7081 bytes
 !
-! Last configuration change at 23:55:21 UTC Sun Apr 19 2020 by john
+! Last configuration change at 00:16:51 UTC Mon Apr 20 2020
 !
 version 15.6
 service timestamps debug datetime msec
@@ -76,6 +76,9 @@ redundancy
 interface Loopback0
  ip address 1.1.1.1 255.255.255.255
  ip ospf 1 area 0
+!
+interface Loopback45
+ ip address 45.45.45.1 255.255.255.0
 !
 interface GigabitEthernet0/0
  description ~~ MANAGEMENT INTERFACE ~~
@@ -184,6 +187,7 @@ router ospf 1
 !
 router bgp 65001
  bgp log-neighbor-changes
+ network 45.45.45.0 mask 255.255.255.0
  neighbor 2.2.2.2 remote-as 65001
  neighbor 2.2.2.2 password cisco
  neighbor 2.2.2.2 update-source Loopback0
