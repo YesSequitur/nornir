@@ -1,0 +1,57 @@
+-------------------------
+Device ID: Switch
+Entry address(es):
+Platform: Cisco ,  Capabilities: Router Switch IGMP
+Interface: GigabitEthernet0/0,  Port ID (outgoing port): GigabitEthernet1/1
+Holdtime : 139 sec
+
+Version :
+Cisco IOS Software, vios_l2 Software (vios_l2-ADVENTERPRISEK9-M), Experimental Version 15.2(20170321:233949) [mmen 101]
+Copyright (c) 1986-2017 by Cisco Systems, Inc.
+Compiled Wed 22-Mar-17 08:38 by mmen
+
+advertisement version: 2
+VTP Management Domain: ''
+Native VLAN: 1
+Duplex: full
+
+-------------------------
+Device ID: R2.IPvZero.com
+Entry address(es):
+  IP address: 10.0.0.10
+Platform: Cisco ,  Capabilities: Router Source-Route-Bridge
+Interface: GigabitEthernet0/2,  Port ID (outgoing port): GigabitEthernet0/2
+Holdtime : 146 sec
+
+Version :
+Cisco IOS Software, IOSv Software (VIOS-ADVENTERPRISEK9-M), Version 15.6(2)T, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2016 by Cisco Systems, Inc.
+Compiled Tue 22-Mar-16 16:19 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es):
+  IP address: 10.0.0.10
+
+-------------------------
+Device ID: R1.IPvZero.com
+Entry address(es):
+  IP address: 10.0.0.1
+Platform: Cisco ,  Capabilities: Router Source-Route-Bridge
+Interface: GigabitEthernet0/1,  Port ID (outgoing port): GigabitEthernet0/1
+Holdtime : 162 sec
+
+Version :
+Cisco IOS Software, IOSv Software (VIOS-ADVENTERPRISEK9-M), Version 15.6(2)T, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2016 by Cisco Systems, Inc.
+Compiled Tue 22-Mar-16 16:19 by prod_rel_team
+
+advertisement version: 2
+Duplex: half
+Management address(es):
+  IP address: 10.0.0.1
+
+
+Total cdp entries displayed : 3

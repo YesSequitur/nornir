@@ -1,0 +1,112 @@
+Syslog logging: enabled (0 messages dropped, 7 messages rate-limited, 0 flushes, 0 overruns, xml disabled, filtering disabled)
+
+No Active Message Discriminator.
+
+
+
+No Inactive Message Discriminator.
+
+
+    Console logging: level debugging, 107 messages logged, xml disabled,
+                     filtering disabled
+    Monitor logging: level debugging, 0 messages logged, xml disabled,
+                     filtering disabled
+    Buffer logging:  level debugging, 111 messages logged, xml disabled,
+                    filtering disabled
+    Exception Logging: size (8192 bytes)
+    Count and timestamp logging messages: disabled
+    Persistent logging: disabled
+
+No active filter modules.
+
+    Trap logging: level informational, 119 message lines logged
+        Logging Source-Interface:       VRF Name:
+
+Log Buffer (8192 bytes):
+EK9-M), Version 15.6(2)T, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2016 by Cisco Systems, Inc.
+Compiled Tue 22-Mar-16 16:19 by prod_rel_team
+*Apr 19 23:29:50.400: %SSH-5-ENABLED: SSH 2.0 has been enabled
+*Apr 19 23:29:50.440: %LINK-5-CHANGED: Interface GigabitEthernet0/7, changed state to administratively down
+*Apr 19 23:29:50.441: %LINK-5-CHANGED: Interface GigabitEthernet0/8, changed state to administratively down
+*Apr 19 23:29:50.443: %LINK-5-CHANGED: Interface GigabitEthernet0/9, changed state to administratively down
+*Apr 19 23:29:50.446: %LINK-5-CHANGED: Interface GigabitEthernet0/10, changed state to administratively down
+*Apr 19 23:29:50.447: %LINK-5-CHANGED: Interface GigabitEthernet0/11, changed state to administratively down
+*Apr 19 23:29:50.863: %CRYPTO-6-ISAKMP_ON_OFF: ISAKMP is OFF
+*Apr 19 23:29:50.868: %CRYPTO-6-GDOI_ON_OFF: GDOI is OFF
+*Apr 19 23:29:51.152: %DUAL-5-NBRCHANGE: EIGRP-IPv4 123: Neighbor 10.0.0.26 (GigabitEthernet0/1) is up: new adjacency
+*Apr 19 23:29:51.158: %DUAL-5-NBRCHANGE: EIGRP-IPv4 123: Neighbor 10.0.0.30 (GigabitEthernet0/3) is up: new adjacency
+*Apr 19 23:29:51.900: %DUAL-5-NBRCHANGE: EIGRP-IPv4 123: Neighbor 10.0.0.21 (GigabitEthernet0/2) is up: new adjacency
+*Apr 19 23:29:58.316: %SYS-3-CPUHOG: Task is running for (1998)msecs, more than (2000)msecs (0/0),process = Crypto CA.
+*Apr 19 23:30:00.316: %SYS-3-CPUHOG: Task is running for (3998)msecs, more than (2000)msecs (0/0),process = Crypto CA.
+*Apr 19 23:30:01.775: %BGP-5-ADJCHANGE: neighbor 8.8.8.8 Up
+*Apr 19 23:30:01.778: %BGP-5-ADJCHANGE: neighbor 6.6.6.6 Up
+*Apr 19 23:30:01.779: %BGP-5-ADJCHANGE: neighbor 7.7.7.7 Up
+*Apr 19 23:30:01.780: %BGP-5-ADJCHANGE: neighbor 4.4.4.4 Up
+*Apr 19 23:30:08.964: %BGP-5-ADJCHANGE: neighbor 5.5.5.5 Up
+*Apr 19 23:30:09.692: %BGP-5-ADJCHANGE: neighbor 1.1.1.1 Up
+*Apr 19 23:30:13.253: %BGP-5-ADJCHANGE: neighbor 2.2.2.2 Up
+*Apr 19 23:30:32.652: %OSPF-5-ADJCHG: Process 1, Nbr 6.6.6.6 on GigabitEthernet0/2 from LOADING to FULL, Loading Done
+*Apr 19 23:30:33.559: %OSPF-5-ADJCHG: Process 1, Nbr 8.8.8.8 on GigabitEthernet0/3 from LOADING to FULL, Loading Done
+*Apr 19 23:30:35.611: %OSPF-5-ADJCHG: Process 1, Nbr 7.7.7.7 on GigabitEthernet0/1 from LOADING to FULL, Loading Done
+*Apr 19 23:31:33.133: %PLATFORM-5-SIGNATURE_VERIFIED: Image 'flash0:/vios-adventerprisek9-m' passed code signing verification
+*Apr 19 23:39:54.688: %LINK-2-INTVULN: In critical region with interrupt level=0, intfc=GigabitEthernet0/3 -Process= "TCP Timer", ipl= 0, pid= 205
+-Traceback= 115004Az 218B85z 13E46Bz 162431Bz 1626B36z 163EA3Ez 163E40Bz 14D8BDz 14CF84z 15886Az 1597CBz 15975Fz 21DDD3z 19A1258z 19C9CE5z 19C989Az
+*Apr 19 23:42:17.759: %LINK-2-INTVULN: In critical region with interrupt level=0, intfc=GigabitEthernet0/3 -Process= "TCP Timer", ipl= 0, pid= 205
+-Traceback= 115004Az 218B85z 13E46Bz 162431Bz 1626FC0z 163EA3Ez 163E40Bz 14D8BDz 14CF84z 15886Az 1597CBz 15975Fz 21DDD3z 19A1258z 19C9CE5z 19C989Az
+*Apr 19 23:49:50.055: %SYS-5-CONFIG_I: Configured from console by john on vty0 (192.168.31.1)
+*Apr 19 23:50:00.874: %PARSER-4-BADCFG: Unexpected end of configuration file.
+
+*Apr 19 23:50:05.992: %GRUB-5-CONFIG_WRITING: GRUB configuration is being updated on disk. Please wait...
+*Apr 19 23:50:07.053: %GRUB-5-CONFIG_WRITTEN: GRUB configuration was written to disk successfully.
+*Apr 19 23:51:08.295: %SYS-5-CONFIG_I: Configured from console by john on vty0 (192.168.31.1)
+*Apr 19 23:52:18.732: %SYS-5-CONFIG_I: Configured from console by john on vty0 (192.168.31.1)
+*Apr 19 23:52:31.093: %PARSER-4-BADCFG: Unexpected end of configuration file.
+
+*Apr 19 23:52:37.843: %GRUB-5-CONFIG_WRITING: GRUB configuration is being updated on disk. Please wait...
+*Apr 19 23:52:38.651: %GRUB-5-CONFIG_WRITTEN: GRUB configuration was written to disk successfully.
+*Apr 19 23:52:45.400: %SYS-5-CONFIG_I: Configured from console by john on vty0 (192.168.31.1)
+*Apr 19 23:54:49.350: %SYS-5-CONFIG_I: Configured from console by john on vty0 (192.168.31.1)
+*Apr 19 23:55:01.417: %BGP-5-NBR_RESET: Neighbor 1.1.1.1 reset (Peer closed the session)
+*Apr 19 23:55:01.427: %BGP-5-ADJCHANGE: neighbor 1.1.1.1 Down Peer closed the session
+*Apr 19 23:55:01.428: %BGP_SESSION-5-ADJCHANGE: neighbor 1.1.1.1 IPv4 Unicast topology base removed from session  Peer closed the session
+*Apr 19 23:55:01.530: %PARSER-4-BADCFG: Unexpected end of configuration file.
+
+*Apr 19 23:55:07.361: %GRUB-5-CONFIG_WRITING: GRUB configuration is being updated on disk. Please wait...
+*Apr 19 23:55:08.261: %GRUB-5-CONFIG_WRITTEN: GRUB configuration was written to disk successfully.
+*Apr 19 23:55:10.338: %BGP-3-NOTIFICATION: sent to neighbor 1.1.1.1 passive 2/3 (BGP identifier wrong) 4 bytes 03030303
+*Apr 19 23:55:10.338: %BGP-4-MSGDUMP: unsupported or mal-formatted message received from 1.1.1.1:
+FFFF FFFF FFFF FFFF FFFF FFFF FFFF FFFF 0039 0104 FDE9 000F 0303 0303 1C02 0601
+0400 0100 0102 0280 0002 0202 0002 0246 0002 0641 0400 00FD E9
+*Apr 19 23:55:10.341: %BGP-3-NOTIFICATION: received from neighbor 1.1.1.1 active 2/3 (BGP identifier wrong) 4 bytes 03030303
+*Apr 19 23:55:10.341: %BGP-5-NBR_RESET: Neighbor 1.1.1.1 active reset (BGP Notification received)
+*Apr 19 23:55:10.343: %BGP-5-ADJCHANGE: neighbor 1.1.1.1 active Down BGP Notification received
+*Apr 19 23:55:10.343: %BGP_SESSION-5-ADJCHANGE: neighbor 1.1.1.1 IPv4 Unicast topology base removed from session  BGP Notification received
+*Apr 19 23:55:13.336: %BGP-3-NOTIFICATION: sent to neighbor 5.5.5.5 4/0 (hold time expired) 0 bytes
+*Apr 19 23:55:13.337: %BGP-3-NOTIFICATION: sent to neighbor 4.4.4.4 4/0 (hold time expired) 0 bytes
+*Apr 19 23:55:13.339: %BGP-5-NBR_RESET: Neighbor 5.5.5.5 reset (BGP Notification sent)
+*Apr 19 23:55:13.340: %BGP-5-NBR_RESET: Neighbor 4.4.4.4 reset (BGP Notification sent)
+*Apr 19 23:55:13.342: %BGP-5-ADJCHANGE: neighbor 4.4.4.4 Down BGP Notification sent
+*Apr 19 23:55:13.342: %BGP_SESSION-5-ADJCHANGE: neighbor 4.4.4.4 IPv4 Unicast topology base removed from session  BGP Notification sent
+*Apr 19 23:55:13.343: %BGP-5-ADJCHANGE: neighbor 5.5.5.5 Down BGP Notification sent
+*Apr 19 23:55:13.343: %BGP_SESSION-5-ADJCHANGE: neighbor 5.5.5.5 IPv4 Unicast topology base removed from session  BGP Notification sent
+*Apr 19 23:55:15.435: %BGP-5-NBR_RESET: Neighbor 1.1.1.1 passive reset (BGP Notification sent)
+*Apr 19 23:55:15.437: %BGP-5-ADJCHANGE: neighbor 1.1.1.1 passive Down BGP Notification sent
+*Apr 19 23:55:16.411: %BGP-3-NOTIFICATION: sent to neighbor 8.8.8.8 4/0 (hold time expired) 0 bytes
+*Apr 19 23:55:16.412: %BGP-3-NOTIFICATION: sent to neighbor 6.6.6.6 4/0 (hold time expired) 0 bytes
+*Apr 19 23:55:16.412: %BGP-3-NOTIFICATION: sent to neighbor 7.7.7.7 4/0 (hold time expired) 0 bytes
+*Apr 19 23:55:16.414: %BGP-5-NBR_RESET: Neighbor 8.8.8.8 reset (BGP Notification sent)
+*Apr 19 23:55:16.415: %BGP-5-NBR_RESET: Neighbor 6.6.6.6 reset (BGP Notification sent)
+*Apr 19 23:55:16.415: %BGP-5-NBR_RESET: Neighbor 7.7.7.7 reset (BGP Notification sent)
+*Apr 19 23:55:16.418: %BGP-5-ADJCHANGE: neighbor 6.6.6.6 Down BGP Notification sent
+*Apr 19 23:55:16.419: %BGP_SESSION-5-ADJCHANGE: neighbor 6.6.6.6 IPv4 Unicast topology base removed from session  BGP Notification sent
+*Apr 19 23:55:16.420: %BGP-5-ADJCHANGE: neighbor 7.7.7.7 Down BGP Notification sent
+*Apr 19 23:55:16.420: %BGP_SESSION-5-ADJCHANGE: neighbor 7.7.7.7 IPv4 Unicast topology base removed from session  BGP Notification sent
+*Apr 19 23:55:16.421: %BGP-5-ADJCHANGE: neighbor 8.8.8.8 Down BGP Notification sent
+*Apr 19 23:55:16.421: %BGP_SESSION-5-ADJCHANGE: neighbor 8.8.8.8 IPv4 Unicast topology base removed from session  BGP Notification sent
+*Apr 19 23:55:16.973: %SYS-5-CONFIG_I: Configured from console by john on vty0 (192.168.31.1)
+*Apr 19 23:55:17.434: %BGP-3-NOTIFICATION: sent to neighbor 2.2.2.2 4/0 (hold time expired) 0 bytes
+*Apr 19 23:55:17.435: %BGP-5-NBR_RESET: Neighbor 2.2.2.2 reset (BGP Notification sent)
+*Apr 19 23:55:17.437: %BGP-5-ADJCHANGE: neighbor 2.2.2.2 Down BGP Notification sent
+*Apr 19 23:55:17.437: %BGP_SESSION-5-ADJCHANGE: neighbor 2.2.2.2 IPv4 Unicast topology base removed from session  BGP Notification sent

@@ -1,0 +1,110 @@
+Syslog logging: enabled (0 messages dropped, 6 messages rate-limited, 0 flushes, 0 overruns, xml disabled, filtering disabled)
+
+No Active Message Discriminator.
+
+
+
+No Inactive Message Discriminator.
+
+
+    Console logging: level debugging, 74 messages logged, xml disabled,
+                     filtering disabled
+    Monitor logging: level debugging, 0 messages logged, xml disabled,
+                     filtering disabled
+    Buffer logging:  level debugging, 77 messages logged, xml disabled,
+                    filtering disabled
+    Exception Logging: size (8192 bytes)
+    Count and timestamp logging messages: disabled
+    Persistent logging: disabled
+
+No active filter modules.
+
+    Trap logging: level informational, 81 message lines logged
+        Logging Source-Interface:       VRF Name:
+
+Log Buffer (8192 bytes):
+
+*Mar  1 00:00:00.951: %ATA-6-DEV_FOUND: device 0x1F0
+*Mar  1 00:00:12.934: %NVRAM-5-CONFIG_NVRAM_READ_OK: NVRAM configuration 'flash:/nvram' was read from disk.
+*Apr 19 23:29:49.459: %PA-3-PA_INIT_FAILED: Performance Agent failed to initialize (Missing Data License)
+*Apr 19 23:29:58.380: %LINK-3-UPDOWN: Interface GigabitEthernet0/0, changed state to up
+*Apr 19 23:29:58.386: %LINK-3-UPDOWN: Interface GigabitEthernet0/1, changed state to up
+*Apr 19 23:29:58.389: %LINK-3-UPDOWN: Interface GigabitEthernet0/2, changed state to up
+*Apr 19 23:29:58.391: %LINK-3-UPDOWN: Interface GigabitEthernet0/3, changed state to down
+*Apr 19 23:29:58.392: %LINK-3-UPDOWN: Interface GigabitEthernet0/4, changed state to down
+*Apr 19 23:29:58.393: %LINK-3-UPDOWN: Interface GigabitEthernet0/5, changed state to down
+*Apr 19 23:29:58.394: %LINK-3-UPDOWN: Interface GigabitEthernet0/6, changed state to down
+*Apr 19 23:29:58.395: %LINK-3-UPDOWN: Interface GigabitEthernet0/7, changed state to down
+*Apr 19 23:29:58.397: %LINK-3-UPDOWN: Interface GigabitEthernet0/8, changed state to down
+*Apr 19 23:29:58.398: %LINK-3-UPDOWN: Interface GigabitEthernet0/9, changed state to down
+*Apr 19 23:29:58.401: %LINK-3-UPDOWN: Interface GigabitEthernet0/10, changed state to down
+*Apr 19 23:29:58.402: %LINK-3-UPDOWN: Interface GigabitEthernet0/11, changed state to down
+*Apr 19 23:30:01.062: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/0, changed state to up
+*Apr 19 23:30:01.063: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/1, changed state to up
+*Apr 19 23:30:01.065: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/2, changed state to up
+*Apr 19 23:30:01.065: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/3, changed state to down
+*Apr 19 23:30:01.067: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/4, changed state to down
+*Apr 19 23:30:01.068: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/5, changed state to down
+*Apr 19 23:30:01.069: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/6, changed state to down
+*Apr 19 23:30:01.074: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/7, changed state to down
+*Apr 19 23:30:01.076: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/8, changed state to down
+*Apr 19 23:30:01.078: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/9, changed state to down
+*Apr 19 23:30:01.079: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/10, changed state to down
+*Apr 19 23:30:01.084: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/11, changed state to down
+*Apr 19 23:30:01.121: %CVAC-4-FILE_IGNORED: Configuration file flash0:/ios_config.txt is ignored : empty file
+*Apr 19 23:30:02.676: %LINEPROTO-5-UPDOWN: Line protocol on Interface Loopback0, changed state to up
+*Apr 19 23:30:03.661: %SYS-5-CONFIG_I: Configured from memory by console
+*Apr 19 23:30:04.548: %LINK-5-CHANGED: Interface GigabitEthernet0/3, changed state to administratively down
+*Apr 19 23:30:04.562: %LINK-5-CHANGED: Interface GigabitEthernet0/4, changed state to administratively down
+*Apr 19 23:30:04.787: %LINK-5-CHANGED: Interface GigabitEthernet0/5, changed state to administratively down
+*Apr 19 23:30:04.793: %LINK-5-CHANGED: Interface GigabitEthernet0/6, changed state to administratively down
+*Apr 19 23:30:04.798: %LINK-5-CHANGED: Interface GigabitEthernet0/7, changed state to administratively down
+*Apr 19 23:30:05.013: %LINK-5-CHANGED: Interface GigabitEthernet0/8, changed state to administratively down
+*Apr 19 23:30:05.016: %LINK-5-CHANGED: Interface GigabitEthernet0/9, changed state to administratively down
+*Apr 19 23:30:05.044: %CVAC-4-FILE_IGNORED: Configuration file flash0:/ios_config.txt is ignored : empty file
+*Apr 19 23:30:05.056: %LINK-5-CHANGED: Interface GigabitEthernet0/10, changed state to administratively down
+*Apr 19 23:30:05.162: %LINK-5-CHANGED: Interface GigabitEthernet0/11, changed state to administratively down
+*Apr 19 23:30:05.573: %SYS-5-RESTART: System restarted --
+Cisco IOS Software, IOSv Software (VIOS-ADVENTERPRISEK9-M), Version 15.6(2)T, RELEASE SOFTWARE (fc2)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2016 by Cisco Systems, Inc.
+Compiled Tue 22-Mar-16 16:19 by prod_rel_team
+*Apr 19 23:30:05.711: %SSH-5-ENABLED: SSH 2.0 has been enabled
+*Apr 19 23:30:05.813: %CRYPTO-6-ISAKMP_ON_OFF: ISAKMP is OFF
+*Apr 19 23:30:05.813: %CRYPTO-6-GDOI_ON_OFF: GDOI is OFF
+*Apr 19 23:30:06.073: %DUAL-5-NBRCHANGE: EIGRP-IPv4 123: Neighbor 10.0.0.6 (GigabitEthernet0/2) is up: new adjacency
+*Apr 19 23:30:06.334: %DUAL-5-NBRCHANGE: EIGRP-IPv4 123: Neighbor 10.0.0.2 (GigabitEthernet0/1) is up: new adjacency
+*Apr 19 23:30:12.142: %SYS-3-CPUHOG: Task is running for (1999)msecs, more than (2000)msecs (0/0),process = Crypto CA.
+*Apr 19 23:30:14.142: %SYS-3-CPUHOG: Task is running for (3999)msecs, more than (2000)msecs (0/0),process = Crypto CA.
+*Apr 19 23:30:15.630: %BGP-5-ADJCHANGE: neighbor 3.3.3.3 Up
+*Apr 19 23:30:16.149: %BGP-5-ADJCHANGE: neighbor 2.2.2.2 Up
+*Apr 19 23:30:47.362: %OSPF-5-ADJCHG: Process 1, Nbr 5.5.5.5 on GigabitEthernet0/1 from LOADING to FULL, Loading Done
+*Apr 19 23:30:48.673: %OSPF-5-ADJCHG: Process 1, Nbr 6.6.6.6 on GigabitEthernet0/2 from LOADING to FULL, Loading Done
+*Apr 19 23:31:38.555: %PLATFORM-5-SIGNATURE_VERIFIED: Image 'flash0:/vios-adventerprisek9-m' passed code signing verification
+*Apr 19 23:43:07.527: %SSH-4-SSH2_UNEXPECTED_MSG: Unexpected message type has arrived. Terminating the connection from 192.168.31.1
+*Apr 19 23:49:57.179: %SYS-5-CONFIG_I: Configured from console by john on vty0 (192.168.31.1)
+*Apr 19 23:50:09.460: %PARSER-4-BADCFG: Unexpected end of configuration file.
+
+*Apr 19 23:50:16.838: %GRUB-5-CONFIG_WRITING: GRUB configuration is being updated on disk. Please wait...
+*Apr 19 23:50:17.970: %GRUB-5-CONFIG_WRITTEN: GRUB configuration was written to disk successfully.
+*Apr 19 23:51:08.924: %SYS-5-CONFIG_I: Configured from console by john on vty0 (192.168.31.1)
+*Apr 19 23:52:25.590: %SYS-5-CONFIG_I: Configured from console by john on vty0 (192.168.31.1)
+*Apr 19 23:52:40.303: %PARSER-4-BADCFG: Unexpected end of configuration file.
+
+*Apr 19 23:52:46.928: %GRUB-5-CONFIG_WRITING: GRUB configuration is being updated on disk. Please wait...
+*Apr 19 23:52:47.966: %GRUB-5-CONFIG_WRITTEN: GRUB configuration was written to disk successfully.
+*Apr 19 23:52:48.595: %SYS-5-CONFIG_I: Configured from console by john on vty0 (192.168.31.1)
+*Apr 19 23:54:59.564: %SYS-5-CONFIG_I: Configured from console by john on vty0 (192.168.31.1)
+*Apr 19 23:55:12.062: %PARSER-4-BADCFG: Unexpected end of configuration file.
+
+*Apr 19 23:55:18.794: %GRUB-5-CONFIG_WRITING: GRUB configuration is being updated on disk. Please wait...
+*Apr 19 23:55:19.987: %GRUB-5-CONFIG_WRITTEN: GRUB configuration was written to disk successfully.
+*Apr 19 23:55:21.641: %SYS-5-CONFIG_I: Configured from console by john on vty0 (192.168.31.1)
+*Apr 19 23:55:23.351: %BGP-3-NOTIFICATION: sent to neighbor 3.3.3.3 4/0 (hold time expired) 0 bytes
+*Apr 19 23:55:23.351: %BGP-3-NOTIFICATION: sent to neighbor 2.2.2.2 4/0 (hold time expired) 0 bytes
+*Apr 19 23:55:23.354: %BGP-5-NBR_RESET: Neighbor 3.3.3.3 reset (BGP Notification sent)
+*Apr 19 23:55:23.355: %BGP-5-NBR_RESET: Neighbor 2.2.2.2 reset (BGP Notification sent)
+*Apr 19 23:55:23.357: %BGP-5-ADJCHANGE: neighbor 2.2.2.2 Down BGP Notification sent
+*Apr 19 23:55:23.357: %BGP_SESSION-5-ADJCHANGE: neighbor 2.2.2.2 IPv4 Unicast topology base removed from session  BGP Notification sent
+*Apr 19 23:55:23.358: %BGP-5-ADJCHANGE: neighbor 3.3.3.3 Down BGP Notification sent
+*Apr 19 23:55:23.359: %BGP_SESSION-5-ADJCHANGE: neighbor 3.3.3.3 IPv4 Unicast topology base removed from session  BGP Notification sent
