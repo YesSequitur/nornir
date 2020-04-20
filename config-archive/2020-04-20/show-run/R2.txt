@@ -1,9 +1,9 @@
 Building configuration...
 
 
-Current configuration : 5159 bytes
+Current configuration : 5214 bytes
 !
-! Last configuration change at 23:55:14 UTC Sun Apr 19 2020 by john
+! Last configuration change at 00:23:14 UTC Mon Apr 20 2020
 !
 version 15.6
 service timestamps debug datetime msec
@@ -73,6 +73,9 @@ redundancy
 interface Loopback0
  ip address 1.1.1.1 255.255.255.255
  ip ospf 1 area 0
+!
+interface Loopback28
+ ip address 28.28.28.28 255.255.255.255
 !
 interface GigabitEthernet0/0
  description ~~ MANAGEMENT INTERFACE ~~

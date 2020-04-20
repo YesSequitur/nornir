@@ -42,7 +42,7 @@ BGP neighbor is 2.2.2.2,  remote AS 65001, internal link
 
   Address tracking is enabled, the RIB does not have a route to 2.2.2.2
   Connections established 1; dropped 1
-  Last reset 00:23:12, due to BGP protocol initialization
+  Last reset 00:28:32, due to BGP protocol initialization
   Interface associated: (none) (peering address NOT in same link)
   Transport(tcp) path-mtu-discovery is enabled
   Graceful-Restart is disabled
@@ -93,7 +93,7 @@ BGP neighbor is 3.3.3.3,  remote AS 65001, internal link
 
   Address tracking is enabled, the RIB does not have a route to 3.3.3.3
   Connections established 1; dropped 1
-  Last reset 00:23:12, due to BGP protocol initialization
+  Last reset 00:28:32, due to BGP protocol initialization
   Interface associated: (none) (peering address NOT in same link)
   Transport(tcp) path-mtu-discovery is enabled
   Graceful-Restart is disabled
