@@ -1,0 +1,32 @@
+Codes: L - local, C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route, H - NHRP, l - LISP
+       a - application route
+       + - replicated route, % - next hop override, p - overrides from PfR
+
+Gateway of last resort is not set
+
+      1.0.0.0/32 is subnetted, 1 subnets
+C        1.1.1.1 is directly connected, Loopback0
+      10.0.0.0/8 is variably subnetted, 12 subnets, 2 masks
+D        10.0.0.0/30 [90/25600] via 10.0.0.33, 00:48:23, GigabitEthernet0/2
+D        10.0.0.4/30 [90/25600] via 10.0.0.38, 00:48:32, GigabitEthernet0/1
+                     [90/25600] via 10.0.0.33, 00:48:32, GigabitEthernet0/2
+D        10.0.0.8/30 [90/20480] via 10.0.0.33, 00:48:32, GigabitEthernet0/2
+D        10.0.0.12/30 [90/20480] via 10.0.0.33, 00:48:32, GigabitEthernet0/2
+D        10.0.0.16/30 [90/15360] via 10.0.0.33, 00:48:36, GigabitEthernet0/2
+D        10.0.0.20/30 [90/20480] via 10.0.0.38, 00:48:32, GigabitEthernet0/1
+                      [90/20480] via 10.0.0.33, 00:48:32, GigabitEthernet0/2
+D        10.0.0.24/30 [90/15360] via 10.0.0.33, 00:48:36, GigabitEthernet0/2
+D        10.0.0.28/30 [90/15360] via 10.0.0.38, 00:48:32, GigabitEthernet0/1
+C        10.0.0.32/30 is directly connected, GigabitEthernet0/2
+L        10.0.0.34/32 is directly connected, GigabitEthernet0/2
+C        10.0.0.36/30 is directly connected, GigabitEthernet0/1
+L        10.0.0.37/32 is directly connected, GigabitEthernet0/1
+      45.0.0.0/24 is subnetted, 1 subnets
+D        45.45.45.0 [90/26240] via 10.0.0.38, 00:03:43, GigabitEthernet0/1
+                    [90/26240] via 10.0.0.33, 00:03:43, GigabitEthernet0/2
